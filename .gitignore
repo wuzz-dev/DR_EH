@@ -1,0 +1,23 @@
+# Gradle and Android build output
+.gradle/
+.kotlin/
+**/build/
+
+# Machine-local Android SDK location
+local.properties
+
+# IDE state and machine-specific project files
+.idea/
+*.iml
+
+# Local credentials and environment files
+.env
+.env.*
+secrets.properties
+keystore.properties
+*.jks
+*.keystore
+
+# Operating system files
+.DS_Store
+Thumbs.db
